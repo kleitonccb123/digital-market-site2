@@ -42,5 +42,5 @@ jobs:
           protocol: ftps
           port: 21
           server-dir: ${{ secrets.FTP_REMOTE_DIR }}
-          local-dir: dist
+          local-dir: ./dist/
           dangerous-clean-slate: true
